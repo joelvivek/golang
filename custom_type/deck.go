@@ -24,3 +24,8 @@ func (d deck) print() {
 		fmt.Println(i, card)
 	}
 }
+
+// This function returns 2 values based on handsize, 1st set return 0 to value and the 2nd set return handsize till the end of slice/array
+func deal(d deck, handSize int) (deck, deck) { // this function deal: has 2 arguments, should returns type deck
+	return d[:handSize], d[handSize:]
+}

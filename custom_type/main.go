@@ -5,4 +5,8 @@ func main() {
 
 	cards.print()
 
+	hand, remainingCards := deal(cards, 10)
+	hand.print()
+	remainingCards.print()
+
 }
