@@ -34,6 +34,10 @@ func main() {
 	jimPointer.updateName("Jimmy")
 	jimPointer.print()
 
+	/* Pointer Short cut */
+	jim.updateName("Timmy")
+	jim.print()
+
 }
 
 // func (p person) updateName(newFirstName string) {
