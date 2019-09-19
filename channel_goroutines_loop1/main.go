@@ -1,6 +1,6 @@
 package main
 
-// Concurancy is not parallelism
+// Concurancy is not parallelism 
 
 import (
 	"fmt"
